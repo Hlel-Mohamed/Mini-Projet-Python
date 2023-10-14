@@ -1,0 +1,56 @@
+|        Application Multi Taches          | 
+--------|       Menu Principal      |--------
+A- Enregistrement
+B- Authentification
+	B1- Hachage
+	B2- Chiffrement
+C- Quitter
+
+
+**********************
+
+
+--------|       Menu A : Enregistrement      |--------
+A1- Sauvegarder Données utilisateur
+A2- Lire Données utilisateur 
+A3- Revenir au menu principal
+
+
+**********************
+
+
+--------|       Menu B : Authentification      |--------
+B1- Hachage
+B2- Chiffrement
+B3- Revenir au menu principal
+
+
+**********************
+
+--------|       Menu B1 :  Hachage      |--------
+B1-a  Hacher un message par MD5
+B1-b  Hacher un message par SHA256
+B1-c  Hacher un message par Blake2b
+B1-d  Cracker un message Haché
+B1-e Revenir au menu MenuB
+
+
+**********************
+
+--------|       Menu B2 :  Chiffrement      |--------
+B2-a Cesar 
+	B2-a1 Chiffrement message
+	B2-a2 Déchiffrement message
+	B1-a3 Revenir au menu MenuB2
+B2-b Affine
+	B2-b1 Chiffrement message
+	B2-b2 Déchiffrement message
+	B1-b3 Revenir au menu MenuB2
+B2-c RSA
+	B2-c1 Chiffrement message
+	B2-c2 Déchiffrement message.
+	B2-c3 Signature
+	B3-c4 Vérification Signature
+	B1-c5 Revenir au menu MenuB2
+B1-d Revenir au menu MenuB
+
